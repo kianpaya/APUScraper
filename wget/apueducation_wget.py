@@ -11,7 +11,7 @@ wget_command = [
     "--wait=2",
     "--random-wait",
     "-e", "robots=off",
-    "--directory-prefix=wget/data",
+    "--directory-prefix=wget/data/html",
     "https://web.archive.org/web/20241112194819/https://apueducation.us/"
 ]
 
