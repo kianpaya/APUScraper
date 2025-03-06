@@ -9,6 +9,9 @@ wget_command = [
     "--page-requisites",
     "--no-parent",
     "--wait=2",
+    "--random-wait",
+    "-e", "robots=off",
+    "--directory-prefix=wget/data",
     "https://web.archive.org/web/20241112194819/https://apueducation.us/"
 ]
 
