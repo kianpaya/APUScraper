@@ -1,0 +1,17 @@
+# Core Libraries for Web Scraping
+requests
+beautifulsoup4
+lxml
+
+# Handling Data
+pandas
+
+# OS and Subprocess (for Automating `wget`)
+subprocess32   # Alternative subprocess module (older versions of Python)
+psutil         # For monitoring system processes
+
+# Logging & Debugging
+loguru         # Better logging for debugging
+
+# JSON Handling
+json5          # More flexible JSON parsing
