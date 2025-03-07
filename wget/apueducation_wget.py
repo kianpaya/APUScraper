@@ -15,5 +15,7 @@ wget_command = [
     "https://web.archive.org/web/20241112194819/https://apueducation.us/"
 ]
 
+
+
 # Run the wget command from Python
 subprocess.run(wget_command)
